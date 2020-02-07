@@ -1,0 +1,23 @@
+header {
+    background-color: hsl(0, 2%, 24%);
+    height: 5.5rem;
+    z-index: 1000;  
+}
+    
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.name-and-degree {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
