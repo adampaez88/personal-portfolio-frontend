@@ -65,6 +65,7 @@ function Body(){
                         target='_blank' className='Linkedin-link' >Linkedin</a>
                         <h3>Email: adamlee2388@gmail.com</h3>
                         <h3>Alternate Email: adam987@comcast.net</h3>
+                        <a href='https://medium.com/@adamlee2388' target='_blank'>Medium</a>
                     </div>
                 </div>
             </div>
