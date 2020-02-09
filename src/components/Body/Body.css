@@ -6,14 +6,15 @@
 .sills-interests {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 3%;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
 }
 
 .each-div {
     border: solid black;
-    padding: 5%;
+    padding: 6%;
 }
 
 .each-div > h1{
@@ -34,11 +35,45 @@ ul > li {
 .projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 4%;
+    justify-content: space-between;
+    margin: 5%;
+    margin-block-end: auto;
+}
+
+.projects-div {
+    border: solid black;
+    padding: 6%;
+    margin: 1%;
 }
 
 .pic-div > img {
     height: 18rem;
     width: 25rem;
+}
+
+.projects-div > h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.contact-div {
+    border: solid black;
+    padding: 6%;
+    margin: 1%;
+    text-align: center;
+}
+
+.contact-div > h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.main-body-div {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRv6IAK8DGFWCqIONIrDVK6QqyhH8FBFfi5XjI4O1iRVaMUIcdM');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
