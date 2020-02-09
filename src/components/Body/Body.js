@@ -1,6 +1,7 @@
 import React from 'react'
 import './Body.css'
 
+
 function Body(){
     return (
         <>
@@ -18,17 +19,33 @@ function Body(){
                             <li>SQL</li>
                         </ul>
                     </div>
-                    <div className='each-div'>
-                        <h1>Experience</h1>
-
+                    <div className='pic-div'>
+                        <img src={require('./DSC_3634.jpg')} />
                     </div>
                     <div className='each-div'>
                         <h1>Interests</h1>
-
+                        <ul>
+                            <li>Basketball</li>
+                            <li>Gaming</li>
+                            <li>Being creative</li>
+                        </ul>
                     </div>
                 </div>
+
                 <div className='projects'>
-                    <h1>Projects</h1>
+                    <div className='each-div'>
+                        <h1>Experience</h1>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div className='each-div'>
+                        <h1>My Projects</h1>
+                    </div>
+
+                    <div className='each-div'>
+                        <h1>Contact Me</h1>
+                    </div>
                 </div>
             </div>
         </>

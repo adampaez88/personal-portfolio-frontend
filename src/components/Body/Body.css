@@ -8,11 +8,12 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 3%;
+    margin-top: 5%;
 }
 
 .each-div {
     border: solid black;
-    padding: 3%;
+    padding: 5%;
 }
 
 .each-div > h1{
@@ -28,4 +29,16 @@
 
 ul > li {
     list-style-type: square;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.pic-div > img {
+    height: 18rem;
+    width: 25rem;
 }
