@@ -1,0 +1,31 @@
+.main-body-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sills-interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.each-div {
+    border: solid black;
+    padding: 3%;
+}
+
+.each-div > h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.skills-list {
+    align-content: flex-start;
+}
+
+ul > li {
+    list-style-type: square;
+}

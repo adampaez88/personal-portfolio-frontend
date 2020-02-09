@@ -2,6 +2,8 @@ header {
     background-color: hsl(0, 2%, 24%);
     height: 5.5rem;
     z-index: 1000;  
+    text-align: center;
+
 }
     
 .header-container {
