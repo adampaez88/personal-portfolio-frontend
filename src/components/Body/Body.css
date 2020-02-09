@@ -36,7 +36,7 @@ ul > li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5%;
+    margin: 3%;
     margin-block-end: auto;
 }
 
@@ -70,10 +70,4 @@ ul > li {
     font-weight: 700;
     text-align: center;
     margin-bottom: 8%;
-}
-
-.main-body-div {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRv6IAK8DGFWCqIONIrDVK6QqyhH8FBFfi5XjI4O1iRVaMUIcdM');
-    background-repeat: no-repeat;
-    background-size: cover;
 }

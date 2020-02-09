@@ -3,7 +3,6 @@ header {
     height: 5.5rem;
     z-index: 1000;  
     text-align: center;
-
 }
     
 .header-container {
@@ -17,9 +16,11 @@ header {
 .name-and-degree {
     display: flex;
     flex-direction: column;
+    margin-left: 2%;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
+    margin-right: 2%;
 }
